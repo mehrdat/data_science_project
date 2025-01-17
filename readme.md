@@ -33,7 +33,7 @@ This project demonstrates the forecasting of stock prices for ten leading tech c
 - **Model Evaluation:** RMSE, MAE, and MAPE metrics used to compare models.
 - **Visualizations:** Interactive plots for comparing predicted vs. actual prices.
 
-## 🫠 Tools & Libraries
+## Tools & Libraries
 - Python: `pandas`, `numpy`, `matplotlib`, `scikit-learn`
 - Deep Learning: `TensorFlow`, `PyTorch`
 - APIs: `yfinance`
@@ -51,10 +51,5 @@ photo.png
 ```
 
 ## 🌟 Results
-Our analysis highlights:
-- **ARIMA** excels in short-term predictions but struggles with non-linearity.
-- **LSTM and BiLSTM** effectively capture sequential dependencies.
-- **DeepAR and TCN** perform exceptionally well in handling volatility.
-- **Prophet** offers flexibility with seasonality but may lack precision in trend shifts.
-- **N-BEATS** provides interpretable and robust results across datasets.
+
 
