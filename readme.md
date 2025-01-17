@@ -45,9 +45,7 @@ This project demonstrates the forecasting of stock prices for ten leading tech c
     ├── 
     ├── 
     ├── 
-🗁 datasets/
-🗁 models/
-🗁 results/
+
 README.md
 photo.png
 ```
