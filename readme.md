@@ -42,9 +42,9 @@ This project demonstrates the forecasting of stock prices for ten leading tech c
 ## 📁 Repository Structure
 ```
 🗁 src/
-    ├── data_preprocessing.py
-    ├── model_training.py
-    ├── evaluation.py
+    ├── 
+    ├── 
+    ├── 
 🗁 datasets/
 🗁 models/
 🗁 results/
@@ -60,5 +60,3 @@ Our analysis highlights:
 - **Prophet** offers flexibility with seasonality but may lack precision in trend shifts.
 - **N-BEATS** provides interpretable and robust results across datasets.
 
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
