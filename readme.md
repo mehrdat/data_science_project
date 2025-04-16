@@ -41,11 +41,23 @@ This project demonstrates the forecasting of stock prices for ten leading tech c
 
 ## 📁 Repository Structure
 ```
-🗁 src/
-    ├── 
-    ├── 
-    ├── 
-
+project/
+├── data/
+│   ├── __init__.py
+│   ├── downloader.py
+│   ├── preprocessing.py
+├── models/
+│   ├── __init__.py
+│   ├── knn.py
+│   ├── gru.py
+│   ├── arima.py
+├── evaluation/
+│   ├── __init__.py
+│   ├── metrics.py
+│   ├── visualization.py
+├── main.py
+├── requirements.txt
+├── README.md
 README.md
 photo.png
 ```
