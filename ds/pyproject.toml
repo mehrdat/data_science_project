@@ -1,0 +1,32 @@
+[project]
+name = "stock-price-forecasting"
+version = "0.1.0"
+description = "data science project for financial stock price forecasting"
+authors = [
+    {name = "mehrdad"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "yfinance>=0.2.28",
+    "scikit-learn>=1.2.0",
+    "tensorflow>=2.12.0",
+    "torch>=2.0.0",
+    "xgboost>=1.7.0",
+    "statsmodels>=0.14.0",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"

@@ -1,0 +1,13 @@
+# Core packages
+numpy<2.0
+pandas
+scikit-learn
+matplotlib
+
+# Deep Learning
+torch>=1.9.0
+tensorflow<2.15,>=2.12.0
+
+# Optional: Jupyter for development
+jupyter
+notebook
